@@ -6,6 +6,7 @@ export interface TokenInfo {
   readonly symbol: string;
   readonly logoURI?: string;
   readonly tags?: string[];
+  readonly extensions?: Object;
 }
 
 export interface Version {
